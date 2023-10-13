@@ -47,6 +47,7 @@ def navigate_to_followes(driver):
     except :
         pass
 
+    
     followers_button = "[href*=\"/"+username+"/followers/\"]"
     profile_css = "[href*=\""+username+"\"]"
     following_button = "[href*=\"/"+username+"/following/\"]"
